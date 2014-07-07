@@ -1,0 +1,177 @@
+/* =CSS Reset
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+
+
+@font-face {
+    font-family: 'JungeRegular';
+    src: url('fonts/junge-regular-webfont.eot');
+    src: url('fonts/junge-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/junge-regular-webfont.woff') format('woff'),
+         url('fonts/junge-regular-webfont.ttf') format('truetype'),
+         url('fonts/junge-regular-webfont.svg#JungeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+header {
+  text-align: left;
+  top: 0;
+  width: 100%;
+  padding: 8px;
+  background-color: #40434A;
+  font-size: 30px;
+  color: white;
+  position:fixed;
+ 
+}
+
+
+body {
+  text-align: center;
+  background-color: #F0F0F0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'JungeRegular', serif;
+}
+
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-right: 45%;
+}
+
+
+h4 {
+
+  font-size: 20px;
+  text-shadow:1px 1px 0px #ffffff;
+  color: black;
+  margin-bottom: 100px;
+}
+
+#search {
+  margin-top: 5%;
+  text-align: center;
+}
+
+input {
+  border-radius: 4px;
+  width: 40%;
+  height: 30px;
+  outline: none;
+  border-color: #00abdc;
+  box-shadow: 0 0 5px #00abdc;
+}
+
+button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #40434a), color-stop(1, #747a87) );
+  background:-moz-linear-gradient( center top, #40434a 5%, #747a87 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#40434a', endColorstr='#747a87');
+  background-color:#40434a;
+  text-indent:0;
+  border: 2px white;
+  box-shadow: 0 0 5px white;
+  position: relative;
+  bottom: -3px;
+  color: white;
+  font-size:20px;
+  height:36px;
+  line-height:30px;
+  width:130px;
+  text-align:center;
+}
+
+button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #747a87), color-stop(1, #40434a) );
+  background:-moz-linear-gradient( center top, #747a87 5%, #40434a 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#747a87', endColorstr='#40434a');
+  background-color:#747a87;
+}
+
+button:active {
+  position:relative;
+  top:1px;
+}
+
+#results {
+  padding-top: 20px;
+  margin: auto;
+  width: 900px;
+  height: 100%;
+}
+
+a {
+  color: #00abdc;
+}
+
+a:hover {
+  color: #0579ED;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  height: 20px;
+  width: 100%;;
+  padding: 4px;
+  background-color: #52565E;
+  text-align: left;
+}
+
+#footer-note {
+  color: white;
+  font-style: italic;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+#footer-contact {
+  display:inline-block;
+  position: absolute;
+  left:50%;
+}
+
+
+
+body { 
+  padding-top: 55px;
+  padding-bottom: 30px; 
+}
